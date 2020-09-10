@@ -1,11 +1,12 @@
-package com.example.gads_leaderboard
+package com.example.gads_leaderboard.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.example.gads_leaderboard.leadershipboard.MainActivity
+import com.example.gads_leaderboard.R
+import com.example.gads_leaderboard.ui.leadershipboard.MainActivity
 
 private val SPLASH_TIME_OUT:Long = 3000
 class SplashActivity : AppCompatActivity() {
